@@ -1,0 +1,81 @@
+body {
+    margin: 10px;
+    font-family: serif;
+}
+
+/* For Static */
+/* div {
+    position: static;
+    background-color: yellowgreen;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    inset: 5px;
+ } */
+
+/* For relative */
+div {
+   position: relative;
+   background-color: yellowgreen;
+   /* top: 5px;
+   bottom: 5px;
+   left: 5px;
+   right: 5px; */
+   /* inset: 5px; */
+}
+
+/* For Absolute */
+/* body {
+    position: relative;
+    top: 5px;
+} */
+
+ul {
+    /* position: relative; */
+    background-color: brown;
+    height: 300px;
+    /* overflow-y: scroll; */
+    /* top: 5px; */
+    margin-top: -100px;
+}
+
+.css-element {
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    /* bottom: 5px; */
+    right: 5px;
+    /* inset: 5px; */
+}
+
+/* For Fixed */
+.js-element {
+    background-color: darkorange;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    /* bottom: 10px; */
+}
+
+/* For Sticky */
+/* .html-element {
+    background-color: darkkhaki;
+    position: sticky;
+    top: 25px;    
+} */
+
+/* main {
+    overflow-y: scroll;
+    margin-top: 100px;
+} */
+
+
+/* Make Header */
+header {
+    background-color: greenyellow;
+    position: sticky;
+    top: 0;
+}

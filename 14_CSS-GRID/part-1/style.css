@@ -1,0 +1,98 @@
+/* box {
+    margin: 10px;
+} */
+
+.container {
+  background-color: lightblue;
+  min-height: 60vh;
+  display: grid;
+  /* grid divide in 7 parts and give 2part to 2fr and 3part to 3fr*/
+  /* grid-template-columns: 1fr 2fr 3fr 1fr ;  */
+  /* grid divide in 5 equal fractions
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(5, 1fr); */
+  /* grid-template-columns: repeat(5, 20%); */
+  /* grid-template-columns: 20% 20% 20% 20% 20%; */
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-rows: 100px 100px 100px; */
+  /* repeat 4 time coloumn and repeat 3 times rows*/
+  grid-template-columns: repeat(4, 100px);
+  /* grid-template-columns: repeat(4, auto); */
+  grid-template-rows: repeat(4, 100px);
+  /* grid-template-rows: repeat(4, auto); */
+  /* gap: 20px; */
+}
+
+.box {
+  color: white;
+  font-size: 4rem;
+  /* width: 100px;
+    height: 100px; */
+}
+
+.box-1 {
+  background-color: green;
+  /* grid-column-start: 1;
+    grid-row-start: 1; */
+  /* grid-column-start: 4;
+    grid-row-start: 3; */
+  /* (4 equivalent to -2) and (3 equivalent to -2) */
+  /* grid-column-start: -2;
+    grid-row-start: -2; */
+    grid-column-end: 4;
+    grid-row-end: 4;
+    /* grid-column-end: 4;
+    grid-row-end: 4; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+    /* spread in cells */
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.box-2 {
+  background-color: blueviolet;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: brown;
+}
+
+.box-5 {
+  background-color: coral;
+}
+
+.box-6 {
+  background-color: darkblue;
+}
+
+.box-7 {
+  background-color: darkred;
+}
+
+.box-8 {
+  background-color: darkslategray;
+}
+
+.box-9 {
+  background-color: gray;
+}
+
+.box-10 {
+  background-color: navy;
+}
+
+.box-11 {
+  background-color: khaki;
+}
+
+.box-12 {
+  background-color: hotpink;
+}

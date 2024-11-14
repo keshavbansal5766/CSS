@@ -1,0 +1,75 @@
+body {
+    margin: 10px;
+}
+
+.square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+/* @media (orientation: portrait) and (width > 400px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* @media print and (min-width: 800px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+
+/* @media (500px <= width <= 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* media query lvl 4 */
+/* @media (width <= 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* lvl 3  but we use this becoz of 70% 
+browser only support this and safari browser 
+not support this*/
+/* @media (max-width: 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+/* @media (min-width: 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+
+/* @media (min-height: 500px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+
+
+/* @media (max-height: 500px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */

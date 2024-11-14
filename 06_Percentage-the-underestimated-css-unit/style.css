@@ -1,0 +1,39 @@
+/* html {
+    height: 400px;
+} */
+
+body {
+    margin: 0;
+    /* background-color: green; */
+    /* height: 400px; */
+    /* height: 50%; */
+}
+
+section {
+    background-color: purple;
+    /* box-sizing: border-box; */
+    width: 50vw;
+    /* width: 50vh; */
+    /* height: 50vh; */
+    padding: 10vw; 
+    margin: 10vw;
+    border: 1vw solid cyan;
+    font-size: 4vw;
+    /* width: 50%; */
+    /* width: 400px; */
+    /* font-size: 16px; */
+    /* box-sizing: border-box; */
+    /* height: 50%; */
+    /* padding: 25px; */
+    /* padding: 10%; */
+}
+
+.box {
+    background-color: chartreuse;
+    width: 50%;
+    box-sizing: border-box;
+    /* padding: 10%; */
+    /* margin: 10%; */
+    /* font-size: 200%; */
+    padding: 24px;
+}

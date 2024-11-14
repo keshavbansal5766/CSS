@@ -1,0 +1,40 @@
+:root {
+    font-size: 10px;
+}
+
+             /* or            */
+
+/* html {
+    font-size: 10px;
+} */
+
+
+body {
+    margin: 0;
+    /* font-size: 2em; */
+    /* font-size: 10rem; */
+}
+
+section {
+    background-color: blueviolet;
+    width: 50vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 5rem;
+    /* font-size: 2em; */
+    /* width: 400px;
+    padding: 10%;
+    font-size: 16px; */
+    /* box-sizing: border-box; */
+}
+
+.box {
+    background-color: chartreuse;
+    padding: 0.5em;
+    width: 1em;
+    font-size: 2rem;
+    /* box-sizing: border-box; */
+    /* font-size: 2em; */
+    /* width: 10em; */
+}

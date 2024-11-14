@@ -1,0 +1,88 @@
+li {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.html {
+    color: #e54c21;
+}
+
+.css {
+    color: #214ce5;
+}
+
+.js {
+    color: #f7e018;
+}
+
+.react {
+    color: #61dafb;
+}
+
+.tailwind {
+    color: #3b9eb1;
+}
+
+/* #html {
+    font-size: 32px;
+}
+
+#css {
+    font-size: 32px;
+}
+
+#js {
+    font-size: 32px;
+}
+
+#react {
+    font-size: 32px;
+}
+
+#tailwind {
+    font-size: 32px;
+} */
+
+/* [class] {
+    background-color: green;
+} */
+
+[anurag] {
+    color: pink;
+}
+
+[anurag="procodrr"] {
+    background-color: bisque;
+}
+
+[anurag="singh"] {
+    background-color: rgb(36, 107, 238);
+}
+
+/* it will change all 'p' element background if u want to preserve
+'another element' with same name u will be give first 'parent name'
+then its 'element name' */
+
+ul p {
+    background-color: chocolate;
+}
+
+/* .web p {
+    background-color: chocolate
+} */
+
+h1:hover {
+    color: burlywood;
+}
+
+p:hover {
+    color: aqua;
+}
+
+/* [anurag="procodrr"]:hover {
+    color: aqua;
+} */
+
+.about-it:hover {
+    color: cadetblue;
+}

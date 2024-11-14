@@ -1,0 +1,26 @@
+body {
+    margin: 5px;
+}
+
+.container {
+    background-color: cadetblue;
+    /* create new formating context */
+    display: flow-root;
+}
+
+img {
+    float: left;
+    /* float: right; */
+    width: 400px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    /* position: absolute; */
+
+}
+
+.first-paragraph {
+    /* background-color: bisque; */
+    /* clear: left; */
+    /* clear: right; */
+    /* clear: both; */
+}

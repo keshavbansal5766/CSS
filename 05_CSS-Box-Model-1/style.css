@@ -1,0 +1,37 @@
+/* body {
+    height: 600px;
+} */
+
+/* .parent {
+    width: 800px; 
+    height: 50%;
+    height: 400px;
+    background-color: burlywood;
+} */
+.one {
+    background-color: rgb(0, 140, 255);
+    /* width: 500px; */
+    /* overflow: hidden;
+    overflow: visible; */
+    /* width: 50%; */
+    height: 300px;
+    /* word-break: break-all; */
+    /* max-width: 500px; */
+    /* min-height: 100px; */
+}
+
+.one-child {
+    /* width: 50%; */
+    /* height: 50%; */
+    width: 300px;
+    height: 50%;
+    background-color: aqua;
+    padding: 10px;
+
+}
+
+/* .two {
+    background-color: violet;
+    width: 50%;
+    min-height: 100px;
+} */
